@@ -186,11 +186,11 @@ c помощью команды **git branch**
 В файле `sin.py` реализованы следующие тесты:
 
 - `test_sin_zero`: Проверяет, что `sin(0)` равен `0.0`.
-- `test_sin_pi_half`: Убеждается, что `sin(pi/2)` равен `1.0`.
-- `test_sin_pi`: Гарантирует, что `sin(pi)` равен `0.0`.
+- `test_sin_pi_half`: Проверяет, что `sin(pi/2)` равен `1.0`.
+- `test_sin_pi`: Проверяет, что `sin(pi)` равен `0.0`.
 - `test_sin_three_pi_half`: Проверяет, что `sin(3*pi/2)` равен `-1.0`.
-- `test_sin_two_pi`: Подтверждает, что `sin(2*pi)` равен `0.0`.
-- `test_sin_pi_divide_four`: Тестирует, что `sin(pi/4)` равен `sqrt(2)/2`.
+- `test_sin_two_pi`: Проверяет, что `sin(2*pi)` равен `0.0`.
+- `test_sin_pi_divide_four`: Проверяет, что `sin(pi/4)` равен `sqrt(2)/2`.
 - `test_sin_pi_divide_six`: Проверяет, что `sin(pi/6)` равен `0.5`.
 - `test_sin_pi_divide_three`: Проверяет, что `sin(pi/3)` равен `sqrt(3)/2`.
 
