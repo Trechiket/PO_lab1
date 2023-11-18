@@ -10,7 +10,7 @@ class SinFunctionTestCase(unittest.TestCase):
         self.assertAlmostEqual(sin(pi / 2), 1.0)
 
     def test_sin_pi(self):
-        self.assertAlmostEqual(sin(pi), 1)
+        self.assertAlmostEqual(sin(pi), 0)
 
     def test_sin_three_pi_half(self):
         self.assertAlmostEqual(sin(3 * pi / 2), -1.0)
