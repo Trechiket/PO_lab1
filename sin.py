@@ -26,3 +26,6 @@ class SinFunctionTestCase(unittest.TestCase):
 
     def test_sin_pi_divide_three(self):
         self.assertAlmostEqual(sin(pi / 3), sqrt(3)/2)
+
+    def test_sin_pi(self):
+        self.assertAlmostEqual(sin(pi), 0)
